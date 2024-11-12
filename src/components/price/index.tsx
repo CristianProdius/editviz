@@ -2,7 +2,6 @@
 import { CheckIcon } from "@/icons/check";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
-import { span } from "framer-motion/client";
 
 interface PricingTier {
   title: string;
