@@ -48,7 +48,7 @@ export default function Youtube() {
   return (
     <div>
       <Hero
-        videoSrc="/YouTube/Youtube.mp4"
+        videoSrc="https://drive.google.com/drive/folders/1kO-roEXZGAhXArApnBZIk-mzK60iMTJD"
         headerText="The secret to blowing up YouTube videos?"
         titleText="UNIQUE EDITING STYLE."
         ctaText="Sit back and relax as I blow up your YouTube channel"
