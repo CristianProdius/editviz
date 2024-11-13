@@ -4,20 +4,13 @@ import { ChevronRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 interface HeroProps {
-  videoSrc: string;
   headerText: string;
   titleText: string;
   ctaText: string;
   buttonText: string;
 }
 
-const Hero = ({
-  videoSrc,
-  headerText,
-  titleText,
-  ctaText,
-  buttonText,
-}: HeroProps) => {
+const Hero = ({ headerText, titleText, ctaText, buttonText }: HeroProps) => {
   const router = useRouter();
 
   const handleClick = () => {
@@ -57,7 +50,7 @@ const Hero = ({
           {/* Video Container */}
           <div className="w-full max-w-4xl mx-auto aspect-video mb-12">
             <iframe
-              src={videoSrc}
+              src="https://drive.google.com/file/d/1maYVkWySW2q3vnjGxPlKgqIvqTuShYPK/preview"
               frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
