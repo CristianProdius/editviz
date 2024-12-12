@@ -2,7 +2,7 @@ import VideoPortfolio from "@/components/portofolio";
 import Hero from "../../components/hero";
 import { Testimonials } from "@/components/testimonials";
 import { YouTubeTesttimonials } from "@/constants/youtube/youtubetestimonials";
-import { pricingTiersYT } from "@/constants/youtube/pricing";
+import { pricingTiersCurs } from "@/constants/onlineCourseCreators/pricing";
 import { Pricing } from "../../components/price";
 import Footer from "@/components/footer";
 import VideoTestimonials from "@/components/videoTestimonials";
@@ -16,42 +16,27 @@ export default function Youtube() {
     {
       id: "1",
       title: "Sample Video 1",
-      driveId: "1ZW0SzmvqeRoYM74MLqR0e4zNb-kS_GzH",
+      driveId: "11BCyBf1dC8QZQjmm-l_tUYwfGGXBCWit",
     },
     {
       id: "2",
       title: "Sample Video 2",
-      driveId: "1WuirKd9KNUiHJkDi7-t_ToYALT0rddow",
+      driveId: "1mDuo5VMb6x6TZhPg41P8bBU-l4biaSQC",
     },
     {
       id: "3",
       title: "Sample Video 3",
-      driveId: "1nb8TUJwxf9AOe62OrVXmtBT8ZmtMsVlf",
-    },
-    {
-      id: "4",
-      title: "Sample Video 4",
-      driveId: "1z2FXaSsfzG_gxXXd38VI8keSCbdrdbHp",
-    },
-    {
-      id: "5",
-      title: "Sample Video 5",
-      driveId: "1sKYESgYZpABjHAmCZv7Tg8Z9Bk8Aj_hl",
-    },
-    {
-      id: "6",
-      title: "Sample Video 6",
-      driveId: "1PgxJkeEQJ-Uy31JJrPtjktY__kGpJUMg",
+      driveId: "18WVr7rXFMvJjT-MFdzwo6QqfwVHqyh0W",
     },
   ];
 
   return (
     <div>
       <Hero
-        headerText="The secret to blowing up YouTube videos?"
-        titleText="UNIQUE EDITING STYLE."
-        ctaText="Sit back and relax as I blow up your YouTube channel"
-        buttonText="Message me"
+        headerText="The secret to more online course sales?"
+        titleText="Engaging editing"
+        ctaText="Sit back and relax as I blow up your online course"
+        buttonText="order a video"
       />
       <VideoPortfolio
         title="Here's what I've done for other clients:"
@@ -61,12 +46,12 @@ export default function Youtube() {
       <Testimonials testimonials={YouTubeTesttimonials} />
       <VideoTestimonials successStories={VideoYouTubeTesttimonials} />
       <Dami />
-      <Pricing pricingTiers={pricingTiersYT} />
+      <Pricing pricingTiers={pricingTiersCurs} />
       <CTA
-        title="Custom Title Here"
-        subtitle="Custom subtitle text here"
-        buttonText="Custom Button Text"
-        trustText="Custom trust message"
+        title="My guarantee to you"
+        subtitle="Unlimited revisions until you exceed your expectations "
+        buttonText="Contact me"
+        trustText="Trusted by 13+ clients"
       />
       <Faq />
       <Footer />

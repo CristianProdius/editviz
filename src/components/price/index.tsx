@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 
 interface PricingTier {
   title: string;
-  monthlyPrice: number;
+  monthlyPrice?: number;
+  hourlyRate?: number;
   buttonText: string;
   popular: boolean;
   inverse: boolean;
@@ -32,6 +33,7 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
             ({
               title,
               monthlyPrice,
+              hourlyRate,
               buttonText,
               popular,
               inverse,
@@ -72,7 +74,7 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
                 </div>
                 <div className="flex items-baseline gap-1 mt-[30px]">
                   <span className="text-4xl font-bold tracking-tighter leading-none">
-                    ${monthlyPrice}
+                    ${monthlyPrice ?? hourlyRate}
                   </span>
                   <span
                     className={twMerge(
@@ -80,7 +82,7 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
                       inverse === true && "text-white/50"
                     )}
                   >
-                    /min
+                    {monthlyPrice ? "/month" : "/hour"}
                   </span>
                 </div>
                 <button
