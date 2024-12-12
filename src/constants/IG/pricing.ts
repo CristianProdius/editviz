@@ -14,7 +14,6 @@ export const pricingTiersYT = [
       "Dynamic Motion Graphics",
       "Advanced Keyframing",
       "Green Screen Effects",
-      "Unlimited revisions",
     ],
   },
   {
@@ -33,7 +32,6 @@ export const pricingTiersYT = [
       "Complex Keyframing",
       "Professional Green Screen",
       "Custom Animations",
-      "Unlimited revisions",
     ],
   },
   {
@@ -52,7 +50,7 @@ export const pricingTiersYT = [
       "Advanced Keyframing & Effects",
       "Professional Green Screen",
       "Custom Animation Package",
-      "Unlimited revisions",
+      "Unlimited Revisions",
     ],
   },
 ];

@@ -38,7 +38,7 @@ const TeamMember = () => {
               <p className="text-gray-600">
                 This is the owner of EditVisions, yeah, a 14 year old kiddo, but
                 not to worry, he has professional editors working for him, so he
-                does&apos;t actually edit your videos.
+                doesn&apos;t actually edit your videos.
               </p>
 
               <p className="text-gray-600">

@@ -5,19 +5,19 @@ import { AnimatedStar } from "./animatedStar";
 import { clientPic } from "./animatedStar";
 import ContactButton from "./contact";
 
-export const CTA = () => {
+export const CTA = ({
+  title = "Transform Your Knowledge Into a Thriving Online Course Business",
+  subtitle = "Join Over 7,000+ Course Creators Who've Built Profitable Courses Without Ads or Following",
+  buttonText = "Start My Course Impire Today",
+  trustText = "Trusted by 30+ businesses",
+}) => {
   return (
     <div className="bg-white text-black py-[72px] text-center sm:py-24">
       <div className="container max-w-5xl mx-auto">
-        <h2 className="section-title tracking-tighter sm:text-6xl">
-          Transform Your Knowledge Into a Thriving Online Course Business
-        </h2>
-        <p className="text-xl  mt-5">
-          Join Over 7,000+ Course Creators Who&apos;ve Built Profitable Courses
-          Without Ads or Following
-        </p>
+        <h2 className="section-title tracking-tighter sm:text-6xl">{title}</h2>
+        <p className="text-xl mt-5">{subtitle}</p>
         <div className="mt-10 flex flex-col gap-2.5 px-4 max-w-lg mx-auto sm:flex-row ">
-          <ContactButton text="Start My Course Impire Today" />
+          <ContactButton text={buttonText} />
         </div>
         <div className="flex flex-col items-center mt-8">
           <div className="flex flex-col sm:flex-row items-center gap-4 px-4">
@@ -44,7 +44,7 @@ export const CTA = () => {
                 ))}
               </div>
               <span className="text-sm sm:text-base text-black/80">
-                Trusted by 30+ businesses
+                {trustText}
               </span>
             </div>
           </div>

@@ -1,6 +1,6 @@
-export const pricingTiersYT = [
+export const pricingTiersVSL = [
   {
-    title: "Ali Abdaal Style",
+    title: "Clean Style",
     monthlyPrice: 15,
     buttonText: "Choose Ali's Style",
     popular: false,
@@ -13,12 +13,10 @@ export const pricingTiersYT = [
       "Strategic B-roll Placement",
       "Dynamic Motion Graphics",
       "Advanced Keyframing",
-      "Green Screen Effects",
-      "Unlimited revisions",
     ],
   },
   {
-    title: "Iman Gadzhi Style",
+    title: "Animated Style",
     monthlyPrice: 20,
     buttonText: "Choose Iman's Style",
     popular: true,
@@ -33,7 +31,6 @@ export const pricingTiersYT = [
       "Complex Keyframing",
       "Professional Green Screen",
       "Custom Animations",
-      "Unlimited revisions",
     ],
   },
   {
@@ -52,7 +49,7 @@ export const pricingTiersYT = [
       "Advanced Keyframing & Effects",
       "Professional Green Screen",
       "Custom Animation Package",
-      "Unlimited revisions",
+      "Unlimited Revisions",
     ],
   },
 ];

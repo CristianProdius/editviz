@@ -59,36 +59,6 @@ const Hero = ({ headerText, titleText, ctaText, buttonText }: HeroProps) => {
           </div>
 
           {/* Steps */}
-          <p className="text-xl md:text-2xl mb-2 text-gray-300">
-            Your Next Steps Are:
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-16">
-            <div className="flex items-center gap-2 sm:gap-3 bg-[#3e1a84]/10 rounded-lg px-2 sm:px-4 py-2">
-              <div className="flex items-center gap-1 sm:gap-2">
-                <div className="bg-[#fee370] w-5 sm:w-6 h-5 sm:h-6 rounded-full flex items-center justify-center">
-                  <span className="text-xs sm:text-sm font-bold text-[#3e1a84]">
-                    1
-                  </span>
-                </div>
-                <span className="text-sm sm:text-md md:text-lg font-medium whitespace-nowrap">
-                  Watch This Video
-                </span>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-2 sm:gap-3 bg-[#3e1a84]/10 rounded-lg px-2 sm:px-4 py-2">
-              <div className="flex items-center gap-1 sm:gap-2">
-                <div className="bg-[#fee370] w-5 sm:w-6 h-5 sm:h-6 rounded-full flex items-center justify-center">
-                  <span className="text-xs sm:text-sm font-bold text-[#3e1a84]">
-                    2
-                  </span>
-                </div>
-                <span className="text-sm sm:text-md md:text-lg font-medium whitespace-nowrap">
-                  Get in Contact
-                </span>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* CTA Button */}

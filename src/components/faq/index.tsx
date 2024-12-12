@@ -33,7 +33,7 @@ const items = [
   {
     question: "Which styles can you do?",
     answer:
-      "I can edit with animations (Iman Gadzhi), icons, background and b-roll (Ali Abdaal), simple text with motion graphics or a unique style for you to stand out.",
+      "I can edit with animations (Iman Gadzhi), documentary style, icons, background and b-roll (Ali Abdaal), simple text with motion graphics or a unique style for you to stand out.",
   },
 ];
 

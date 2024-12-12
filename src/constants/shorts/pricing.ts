@@ -1,7 +1,7 @@
-export const pricingTiersYT = [
+export const pricingTiersSh = [
   {
     title: "Ali Abdaal Style",
-    monthlyPrice: 15,
+    monthlyPrice: 30,
     buttonText: "Choose Ali's Style",
     popular: false,
     inverse: false,
@@ -14,12 +14,11 @@ export const pricingTiersYT = [
       "Dynamic Motion Graphics",
       "Advanced Keyframing",
       "Green Screen Effects",
-      "Unlimited revisions",
     ],
   },
   {
-    title: "Iman Gadzhi Style",
-    monthlyPrice: 20,
+    title: "Devin Jatho Style",
+    monthlyPrice: 40,
     buttonText: "Choose Iman's Style",
     popular: true,
     inverse: true,
@@ -33,12 +32,11 @@ export const pricingTiersYT = [
       "Complex Keyframing",
       "Professional Green Screen",
       "Custom Animations",
-      "Unlimited revisions",
     ],
   },
   {
     title: "Unique Style",
-    monthlyPrice: 25,
+    monthlyPrice: 50,
     buttonText: "Create Your Style",
     popular: false,
     inverse: false,
@@ -52,7 +50,7 @@ export const pricingTiersYT = [
       "Advanced Keyframing & Effects",
       "Professional Green Screen",
       "Custom Animation Package",
-      "Unlimited revisions",
+      "Unlimited Revisions",
     ],
   },
 ];

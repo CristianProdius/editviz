@@ -15,32 +15,32 @@ export default function Youtube() {
   const videos = [
     {
       id: "1",
-      title: "9 things I learned in my 20s",
+      title: "Sample Video 1",
       driveId: "1ZW0SzmvqeRoYM74MLqR0e4zNb-kS_GzH",
     },
     {
       id: "2",
-      title: "How to become a sales appointment setter ",
+      title: "Sample Video 2",
       driveId: "1WuirKd9KNUiHJkDi7-t_ToYALT0rddow",
     },
     {
       id: "3",
-      title: "Is online teaching worth it?",
+      title: "Sample Video 3",
       driveId: "1nb8TUJwxf9AOe62OrVXmtBT8ZmtMsVlf",
     },
     {
       id: "4",
-      title: "How to create a walmart shipment",
+      title: "Sample Video 4",
       driveId: "1z2FXaSsfzG_gxXXd38VI8keSCbdrdbHp",
     },
     {
       id: "5",
-      title: "How to create horror stories with AI",
+      title: "Sample Video 5",
       driveId: "1sKYESgYZpABjHAmCZv7Tg8Z9Bk8Aj_hl",
     },
     {
       id: "6",
-      title: "How I made 60k with dropshipping",
+      title: "Sample Video 6",
       driveId: "1PgxJkeEQJ-Uy31JJrPtjktY__kGpJUMg",
     },
   ];
@@ -63,10 +63,10 @@ export default function Youtube() {
       <Dami />
       <Pricing pricingTiers={pricingTiersYT} />
       <CTA
-        title="Create bangers without having to worry about editing"
-        subtitle=" I'll take care of the editing so you can focus on creating"
-        buttonText="Get in contact"
-        trustText="Trusted by 27+ clients"
+        title="Custom Title Here"
+        subtitle="Custom subtitle text here"
+        buttonText="Custom Button Text"
+        trustText="Custom trust message"
       />
       <Faq />
       <Footer />
