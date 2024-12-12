@@ -1,12 +1,12 @@
 import VideoPortfolio from "@/components/portofolio";
 import Hero from "../../components/hero";
 import { Testimonials } from "@/components/testimonials";
-import { YouTubeTesttimonials } from "@/constants/youtube/youtubetestimonials";
-import { pricingTiersYT } from "@/constants/youtube/pricing";
+import { AdsTesttimonials } from "@/constants/ads/adstestimonials";
+import { pricingTiersAds } from "@/constants/ads/pricing";
 import { Pricing } from "../../components/price";
 import Footer from "@/components/footer";
 import VideoTestimonials from "@/components/videoTestimonials";
-import { VideoYouTubeTesttimonials } from "@/constants/youtube/videoTestimonials";
+import { VideoAdsTesttimonials } from "@/constants/ads/videoTestimonials";
 import Dami from "@/components/dami";
 import Faq from "@/components/faq";
 import { CTA } from "@/components/cta";
@@ -16,27 +16,27 @@ export default function Youtube() {
     {
       id: "1",
       title: "Sample Video 1",
-      driveId: "1ZW0SzmvqeRoYM74MLqR0e4zNb-kS_GzH",
+      driveId: "1yY9ATgtBhRHF68NyfaFeyXDeSOYyPhWE",
     },
     {
       id: "2",
       title: "Sample Video 2",
-      driveId: "1WuirKd9KNUiHJkDi7-t_ToYALT0rddow",
+      driveId: "182cQxVjQvurA71goWLocR7AzUmNeRhOW",
     },
     {
       id: "3",
       title: "Sample Video 3",
-      driveId: "1nb8TUJwxf9AOe62OrVXmtBT8ZmtMsVlf",
+      driveId: "13ijHMujM8icgH4tG-1VKFHsMHM91ndI3",
     },
     {
       id: "4",
       title: "Sample Video 4",
-      driveId: "1z2FXaSsfzG_gxXXd38VI8keSCbdrdbHp",
+      driveId: "1vfVlYtkalV9URTTuytYG92-t0y4MxV2l",
     },
     {
       id: "5",
       title: "Sample Video 5",
-      driveId: "1sKYESgYZpABjHAmCZv7Tg8Z9Bk8Aj_hl",
+      driveId: "1WOwNa40sqjnL9iFEpM_DWW4rWEK1i-Kt",
     },
     {
       id: "6",
@@ -48,25 +48,25 @@ export default function Youtube() {
   return (
     <div>
       <Hero
-        headerText="The secret to blowing up YouTube videos?"
-        titleText="UNIQUE EDITING STYLE."
-        ctaText="Sit back and relax as I blow up your YouTube channel"
-        buttonText="Message me"
+        headerText="The secret to higher conversion rates?"
+        titleText="Engaging editing"
+        ctaText="Sit back and relax as I generate you sales"
+        buttonText="Order a Video"
       />
       <VideoPortfolio
         title="Here's what I've done for other clients:"
         videos={videos}
       />
 
-      <Testimonials testimonials={YouTubeTesttimonials} />
-      <VideoTestimonials successStories={VideoYouTubeTesttimonials} />
+      <Testimonials testimonials={AdsTesttimonials} />
+      <VideoTestimonials successStories={VideoAdsTesttimonials} />
       <Dami />
-      <Pricing pricingTiers={pricingTiersYT} />
+      <Pricing pricingTiers={pricingTiersAds} />
       <CTA
-        title="Custom Title Here"
-        subtitle="Custom subtitle text here"
-        buttonText="Custom Button Text"
-        trustText="Custom trust message"
+        title="My guarantee to you"
+        subtitle="Unlimited revisions until you exceed your expectations "
+        buttonText="Contact me"
+        trustText="Trusted by 50+ clients"
       />
       <Faq />
       <Footer />

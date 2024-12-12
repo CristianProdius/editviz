@@ -1,10 +1,10 @@
-export const VideoYouTubeTesttimonials = [
+export const VideoAdsTesttimonials = [
   {
     id: "1",
     driveId: "1uhbui67gxiGH9_BecWO5nhQN4TRBprlc",
     creator: {
-      name: "Alex Chen",
-      role: "Tech YouTuber",
+      name: "Daniel Geyer",
+      role: "Client",
     },
   },
   {

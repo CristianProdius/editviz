@@ -41,25 +41,11 @@ function VideoCard({
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
       <div className="aspect-video relative">
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-200">
-          <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
-            <svg
-              className="w-8 h-8 text-gray-500"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                clipRule="evenodd"
-                fillRule="evenodd"
-              />
-            </svg>
-          </div>
-        </div>
-        <img
-          src={`https://drive.google.com/thumbnail?id=${story.driveId}&sz=w1000`}
-          alt={`Thumbnail for ${story.creator.name}'s video`}
-          className="absolute inset-0 w-full h-full object-cover"
+        <iframe
+          src={`https://drive.google.com/file/d/${story.driveId}/preview`}
+          className="absolute inset-0 w-full h-full"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
         />
         <button
           className="absolute top-3 right-3 p-2 rounded-full bg-black/20 hover:bg-black/30 transition-colors duration-300"
