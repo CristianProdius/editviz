@@ -109,7 +109,8 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
         </h3>
         <p className="mt-8 section-description">
           I will offer unlimited revisions until you are satisfied with your
-          video. If you still don't like the video, I'll give you a full refund.
+          video. If you still don&apos;t like the video, I&apos;ll give you a
+          full refund.
         </p>
       </div>
     </section>
