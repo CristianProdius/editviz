@@ -19,7 +19,7 @@ const TeamMember = () => {
         </div>
 
         <h2 className="text-center text-5xl sm:text-6xl font-bold tracking-tighter text-gray-900 mb-16">
-          The real person behind EditVisions:
+          The Person Behind EditVisions
         </h2>
 
         <div className="max-w-3xl mx-auto">
@@ -32,21 +32,22 @@ const TeamMember = () => {
               </div>
 
               <h3 className="text-2xl font-bold text-gray-900">
-                Hi, I&apos;m Dami
+                Hey, I am Damian
               </h3>
 
               <p className="text-gray-600">
-                This is the owner of EditVisions, yeah, a 14 year old kiddo, but
-                not to worry, he has professional editors working for him, so he
-                doesn&apos;t actually edit your videos.
+                Damian&apos;s video editing journey started at just 9 years old,
+                turning simple clips into creative stories. By the time he was
+                12, his passion had grown into a full-fledged business, and
+                today, at 14, he leads a team of 20 talented editors.
               </p>
 
               <p className="text-gray-600">
-                This is the owner of EditVisions, yeah, a 14 year old kiddo, but
-                not to worry, he has professional editors working for him, so he
-                doesn&apos;t actually edit your videos. He started this company
-                2 years ago, and now he has almost 20 editors and a lot of
-                satisfied clients.
+                Even as the founder of the agency, Damian stays hands-on,
+                jumping into projects whenever inspiration strikes. His
+                creativity, dedication, and leadership show that age
+                doesn&apos;t define what&apos;s possible when you&apos;re
+                passionate about what you do!
               </p>
             </div>
 

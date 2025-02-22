@@ -1,7 +1,7 @@
 export const pricingTiersYT = [
   {
     title: "Ali Abdaal Style",
-    monthlyPrice: 15,
+    hourlyRate: 15,
     buttonText: "Choose Ali's Style",
     popular: false,
     inverse: false,
@@ -19,7 +19,7 @@ export const pricingTiersYT = [
   },
   {
     title: "Iman Gadzhi Style",
-    monthlyPrice: 20,
+    hourlyRate: 20,
     buttonText: "Choose Iman's Style",
     popular: true,
     inverse: true,
@@ -38,7 +38,7 @@ export const pricingTiersYT = [
   },
   {
     title: "Unique Style",
-    monthlyPrice: 25,
+    hourlyRate: 25,
     buttonText: "Create Your Style",
     popular: false,
     inverse: false,

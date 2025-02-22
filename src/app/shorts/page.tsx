@@ -15,28 +15,18 @@ export default function Youtube() {
   const videos = [
     {
       id: "1",
-      title: "Do Online Courses need editing?",
+      title: "Do Online Courses need editing? \n (Unique Style)",
       driveId: "1YH2BmQnK1LNLnHVHNCSE9QgH4QhIaMkm",
     },
     {
       id: "2",
-      title: "How to Learn Programing",
+      title: "How to Learn Programing \n (Engaging style)",
       driveId: "1Qk3-rNz3m9-ygf1gjUbc9V7c9CFNlk0Z",
-    },
-    {
-      id: "3",
-      title: "making money from python",
-      driveId: "1r_a4mACDNn6xIBCWWd4GDSWk4kqygYz5",
-    },
-    {
-      id: "4",
-      title: "Harsh truth",
-      driveId: "1aXDAVDIxm0KSjdmd9ajS1E4XU4hbGNzk",
     },
 
     {
       id: "5",
-      title: "Where I get my mentors",
+      title: "Where I get my mentors \n (clean style)",
       driveId: "1MSNSC-1VU_yxt69-0t3o3NYkFJR6fc1N",
     },
   ];

@@ -24,14 +24,14 @@ const Hero = ({ headerText, titleText, ctaText, buttonText }: HeroProps) => {
 
       <div className="container relative mx-auto">
         {/* Header Alert */}
-        <div className="flex items-center justify-center mb-8 px-4 w-full">
-          <div className="inline-flex items-center justify-center gap-2 border py-1.5 px-3 rounded-lg border-white/30 w-auto">
-            <div className="bg-green-500 px-2 py-1 rounded-lg flex items-center">
-              <span className="text-[6px] font-bold text-black sm:text-xs">
+        <div className="flex items-center justify-center mb-6 px-4 w-full">
+          <div className="inline-flex items-center justify-center gap-2 border py-3 px-4 rounded-lg border-white/30 w-auto">
+            <div className="bg-green-500 px-3 py-2 rounded-lg flex items-center">
+              <span className="text-sm font-bold text-black sm:text-base">
                 ATTENTION
               </span>
             </div>
-            <span className="text-[7px] sm:text-xs md:text-sm lg:text-base">
+            <span className="text-sm sm:text-base md:text-lg lg:text-xl">
               {headerText}
             </span>
           </div>

@@ -15,17 +15,17 @@ export default function Youtube() {
   const videos = [
     {
       id: "1",
-      title: "Sample Video 1",
+      title: "How to use auto-captions in CapCut",
       driveId: "11BCyBf1dC8QZQjmm-l_tUYwfGGXBCWit",
     },
     {
       id: "2",
-      title: "Sample Video 2",
+      title: "Building an Email Automation",
       driveId: "1mDuo5VMb6x6TZhPg41P8bBU-l4biaSQC",
     },
     {
       id: "3",
-      title: "Sample Video 3",
+      title: "Transferring Domains",
       driveId: "18WVr7rXFMvJjT-MFdzwo6QqfwVHqyh0W",
     },
   ];

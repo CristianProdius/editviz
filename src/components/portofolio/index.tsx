@@ -25,7 +25,7 @@ const VideoPortfolio: React.FC<VideoPortfolioProps> = ({ title, videos }) => {
 const VideoItem: React.FC<VideoItemProps> = ({ video }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
-      <h3 className="text-lg font-semibold p-4 bg-gray-50 truncate">
+      <h3 className="text-lg font-semibold p-4 bg-gray-50 break-words">
         {video.title}
       </h3>
       <div className="aspect-video">

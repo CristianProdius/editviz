@@ -23,10 +23,7 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
       <div className="max-w-[1240px] mx-auto px-4 ">
         <div className="max-w-[540px] mx-auto">
           <h2 className="section-title">Pricing</h2>
-          <p className="section-description mt-5">
-            Choose a plan that works for you. All plans include a 1 project free
-            trial.
-          </p>
+          <p className="section-description mt-5"></p>
         </div>
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
           {pricingTiers.map(
@@ -82,7 +79,7 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
                       inverse === true && "text-white/50"
                     )}
                   >
-                    {monthlyPrice ? "/month" : "/hour"}
+                    {monthlyPrice ? "/month" : "/min"}
                   </span>
                 </div>
                 <button
@@ -105,6 +102,15 @@ export const Pricing = ({ pricingTiers }: PricingProps) => {
             )
           )}
         </div>
+      </div>
+      <div className="mt-16 ">
+        <h3 className="text-center text-2xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001e80] text-transparent bg-clip-text">
+          My Guarantee to You:
+        </h3>
+        <p className="mt-8 section-description">
+          I will offer unlimited revisions until you are satisfied with your
+          video. If you still don't like the video, I'll give you a full refund.
+        </p>
       </div>
     </section>
   );

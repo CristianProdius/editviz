@@ -15,32 +15,32 @@ export default function Youtube() {
   const videos = [
     {
       id: "1",
-      title: "9 things I learned in my 20s",
+      title: "9 things I learned in my 20s \n(Iman Gadzhi style)",
       driveId: "1ZW0SzmvqeRoYM74MLqR0e4zNb-kS_GzH",
     },
     {
       id: "2",
-      title: "How to become a sales appointment setter ",
+      title: "How to become a sales appointment setter \n(Iman Gadzhi style)",
       driveId: "1WuirKd9KNUiHJkDi7-t_ToYALT0rddow",
     },
     {
       id: "3",
-      title: "Is online teaching worth it?",
+      title: "Is online teaching worth it? \n(talking head style)",
       driveId: "1nb8TUJwxf9AOe62OrVXmtBT8ZmtMsVlf",
     },
     {
       id: "4",
-      title: "How to create a walmart shipment",
+      title: "How to create a walmart shipment \n(Iman Gadzhi style)",
       driveId: "1z2FXaSsfzG_gxXXd38VI8keSCbdrdbHp",
     },
     {
       id: "5",
-      title: "How to create horror stories with AI",
+      title: "How to create horror stories with AI \n(Iman Gadzhi style)",
       driveId: "1sKYESgYZpABjHAmCZv7Tg8Z9Bk8Aj_hl",
     },
     {
       id: "6",
-      title: "How I made 60k with dropshipping",
+      title: "How I made 60k with dropshipping \n(talking head style)",
       driveId: "1PgxJkeEQJ-Uy31JJrPtjktY__kGpJUMg",
     },
   ];

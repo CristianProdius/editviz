@@ -6,34 +6,28 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const items = [
   {
-    question: "What is your turnaround time?",
-    answer:
-      "Of course, it varies by the amount of work needed, but let's say for a 10 minute video with simple broll, text and motion graphics - about 5 days",
+    question: "What is your typical turnaround time?",
+    answer: `Turnaround time depends on the complexity of the project:\n\n● 10 minute video with animations (first video from portfolio) - 5 days\n● 10 minute video in documentary style - 5 days\n● 10 minute video with simple motion graphics (last video from portfolio) - 4 days`,
   },
   {
     question: "How does the process work?",
-    answer:
-      "The process is simple:\n\n- You film the video\n- Send it over as well as the requirements and script (if you have one)\n- I give you a delivery estimate\n- You get your video\n- Give me revisions (if needed)\n- Post the video\n- Go viral",
+    answer: `Our process is straightforward:\n\n● You film the video.\n● Send us the footage along with any requirements and a script (if available).\n● We provide a delivery estimate.\n● You receive your video.\n● Request revisions (if needed).\n● Post your video and watch it perform!`,
   },
   {
     question: "What do you need from me?",
-    answer:
-      "I just need the A-roll footage and audio, Broll (if you have some), script (if you have one) and requirements (style for the video, etc)",
+    answer: `We require the following:\n\n● A-roll footage and audio.\n● B-roll footage (if available).\n● A script (if you have one).\n● Requirements such as the desired style or any specific details for the video.`,
   },
   {
     question: "How does payment work?",
-    answer:
-      "I require at least 25% of the full amount to be deposited to me, and after completion, the rest. I'm open to other ways as well.",
+    answer: `We typically request a 25% deposit upfront, with the remaining balance due upon project completion. We're open to discussing other payment arrangements if needed.`,
   },
   {
-    question: "What exactly can you do?",
-    answer:
-      "I can add subtitles, motion graphics, stylish text, stock footage, custom animations, icons, B-roll, backgrounds, photos and many more.",
+    question: "What can you provide for my video?",
+    answer: `We specialize in:\n\n● Subtitles and captions.\n● Motion graphics.\n● Stylish text.\n● Stock footage integration.\n● Custom animations.\n● Icons, backgrounds, photos, and much more.`,
   },
   {
-    question: "Which styles can you do?",
-    answer:
-      "I can edit with animations (Iman Gadzhi), documentary style, icons, background and b-roll (Ali Abdaal), simple text with motion graphics or a unique style for you to stand out.",
+    question: "What editing styles can you create?",
+    answer: `We offer a range of styles, including:\n\n● Animation-focused edits (similar to Iman Gadzhi).\n● Documentary-style edits.\n● Icon and B-roll-heavy edits (inspired by Ali Abdaal).\n● Simple text with motion graphics.\n● Custom, unique styles tailored to your needs`,
   },
 ];
 
@@ -70,7 +64,9 @@ const AccordionItem = ({
             exit={{ opacity: 0, height: 0, marginTop: 0 }}
             className="text-gray-600"
           >
-            {answer}
+            {answer.split("\n").map((line, index) => (
+              <p key={index}>{line}</p>
+            ))}
           </motion.div>
         )}
       </AnimatePresence>
